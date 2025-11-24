@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>所有文章 on ithalic</title>
+    <link>http://localhost:1313/zh-cn/posts/</link>
+    <description>Recent content in 所有文章 on ithalic</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 23 Nov 2025 00:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/zh-cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第一篇文章</title>
+      <link>http://localhost:1313/zh-cn/posts/%E6%96%B0%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/</link>
+      <pubDate>Sun, 23 Nov 2025 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/zh-cn/posts/%E6%96%B0%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/</guid>
+      <description>&lt;h2 id=&#34;你好&#34;&gt;你好！&lt;/h2&gt;&#xA;&lt;p&gt;这是我使用Hugo后的的第一篇博客。&lt;/p&gt;&#xA;&lt;h3 id=&#34;其实是测试一下&#34;&gt;其实是测试一下&lt;/h3&gt;&#xA;&lt;p&gt;原来的博客是使用Gridea生成的，现在改为使用Hugo。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

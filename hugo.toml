@@ -1,0 +1,114 @@
+baseURL = 'https://ithalic0221.github.io/'
+languageCode = 'zh-cn'
+title = '我的博客'
+theme = 'terminal'
+defaultContentLanguage = 'zh-cn' 
+
+[pagination]
+  pagerSize = 10
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+
+[languages]
+  [languages.'zh-cn']  
+    languageName = "中文"
+    title = "ithalic"
+    weight = 1
+    
+    [languages.'zh-cn'.params]
+      subtitle = "欢迎来到我的博客"
+      copyright = "© 2025 我的博客"
+      menuMore = "更多"
+      readMore = "阅读更多"
+      readOtherPosts = "阅读其他文章"
+      newerPosts = "较新的文章"
+      olderPosts = "较旧的文章"
+      missingContentMessage = "页面未找到..."
+      missingBackButtonLabel = "返回首页"
+      minuteReadingTime = "分钟阅读"
+      words = "字"
+    
+    [languages.'zh-cn'.params.logo]
+      logoText = "ithalic"
+      logoHomeLink = "/"
+    
+    [languages.'zh-cn'.menu]
+      [[languages.'zh-cn'.menu.main]]
+        identifier = "home"
+        name = "首页"
+        url = "/zh/"
+        weight = 1
+      [[languages.'zh-cn'.menu.main]]
+        identifier = "posts"
+        name = "文章"
+        url = "/zh/posts/"  
+        weight = 2
+      [[languages.'zh-cn'.menu.main]]
+        identifier = "about"
+        name = "关于"
+        url = "/zh/about/"
+        weight = 3
+
+  [languages.en]
+    languageName = "English"
+    title = "ithalic"
+    weight = 2
+    
+    [languages.en.params]
+      subtitle = "Welcome to My Blog"
+      copyright = "© 2025 My Blog"
+      menuMore = "Show more"
+      readMore = "Read more"
+      readOtherPosts = "Read other posts"
+      newerPosts = "Newer posts"
+      olderPosts = "Older posts"
+      missingContentMessage = "Page not found..."
+      missingBackButtonLabel = "Back to home page"
+      minuteReadingTime = "min read"
+      words = "words"
+    
+    [languages.en.params.logo]
+      logoText = "ithalic"
+      logoHomeLink = "/"  
+    
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "/en/"
+        weight = 1
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/en/posts/"
+        weight = 2
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/en/about/"
+        weight = 3
+
+[params]
+  defaultTheme = "dark"
+  showMenuItems = 2
+  showLanguageSelector = true
+  fullWidthTheme = false
+  centerTheme = false
+  autoCover = true
+  showLastUpdated = false
+  readingTime = true
+  Toc = false
+  contentTypeName = "posts"
+  
+  [params.terminal]
+    animatons = true
+    title = "terminal"
+
+  [params.twitter]
+    creator = ""
+    site = ""
